@@ -1,6 +1,6 @@
 {
   "name": "react-http",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Tiny React HTTP Library for making XHR Requests without bloat",
   "main": "src/react-http.js",
   "scripts": {},
@@ -26,7 +26,4 @@
   },
   "homepage": "https://github.com/forsurerad/react-http#readme",
   "dependencies": {},
-  "browserify": {
-    "transform": [["babelify", { "presets": ["es2015"] }]]
-  }
 }
