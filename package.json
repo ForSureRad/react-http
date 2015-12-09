@@ -1,0 +1,32 @@
+{
+  "name": "react-http",
+  "version": "0.0.1",
+  "description": "Tiny React HTTP Library for making XHR Requests without bloat",
+  "main": "src/react-http.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forsurerad/react-http.git"
+  },
+  "keywords": [
+    "http",
+    "xhr",
+    "react",
+    "request",
+    "progress",
+    "response"
+  ],
+  "author": {
+    "name": "For Sure, Rad!",
+    "email": "dev@forsurerad.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forsurerad/react-http/issues"
+  },
+  "homepage": "https://github.com/forsurerad/react-http#readme",
+  "dependencies": {},
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
+  }
+}
